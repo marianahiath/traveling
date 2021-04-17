@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background: no-repeat center/cover url('assets/headerimage.jpg');
+    height: calc(100vh - 150px);
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.header-content h1 {
+    margin-bottom: 5px;
+    font-size: 30pt;
+}
+
+.header-content p {
+    margin-top: 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+nav p {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: rgba(245, 245, 245, 0.678);
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    background: whitesmoke;
+}
+
+.pacotes {
+    background: rgb(188, 188, 189);
+    /*height: 500px; */
+    padding: 15px;
+}
+
+.pacotes h1 {
+    text-align: center;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
+    max-width: 950px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 16px;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+}
+
+.pacotes .card-content {
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.pacotes .card-content ul li {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+}
+
+.pacotes .card-content li svg {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.card-content h2 {
+    font-size: 1.2rem;
+}
+
+.tag-top {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: rgba(255, 127, 80, 0.603);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.tag-top p {
+    margin: 0;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 189px;
+    background: rgba(90, 129, 153, 0.986);
+    border-radius: 0 20px 20px 0;
+    padding: 5px 10px;
+}
+
+.tag-bottom p {
+    margin: 0;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.servicos {
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.servicos h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.servicos .servicos-cards {
+    padding-top: 15px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover {
+    stroke: rgba(255, 127, 80, 0.904);
+    transform: scale(1.1);
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+}
+
+.servicos .card p {
+    text-align: center;
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+}
+
+.servicos button {
+    background: rgba(90, 129, 153, 0.384);
+}
+
+.servicos button:hover {
+    background: rgba(90, 129, 153, 0.986);
+}
+
+.contato {
+    padding: 60px;
+    position: relative;
+    background: no-repeat center/cover url('assets/contatoimage.jpg');
+    height: calc(100vh - 150px);
+}
+
+.contato .contato-card {
+    width: 350px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    z-index: 99;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 10px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.63);
+
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+
+    transition: all 1s;
+}
+
+.contato .contato-card:hover {
+    transform: scale(1.1);
+}
+
+.contato-card h1 {
+    padding-left: 50px;
+    text-align: left;
+}
+
+.contato .contato-card li {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+.contato .contato-card li svg {
+    width: 16px;
+    margin: 10px;
+}
+
+/*RESPONSIVIDADE*/
+
+/* card/imagem contato */
+@media (max-width: 950px) {
+    .contato {
+    padding: 60px 0;
+    background: rgb(188, 188, 189);
+    } 
+    .contato-card {
+        left: 40px;
+    }
+}
+
+/* card contato */
+@media (max-width: 800px) {
+    .contato {
+        padding: 20px 0;
+    }
+    .contato .contato-card{
+        position: static;
+        margin: 40px auto;
+    }
+} 
+
+/* Tablets and down */
+@media (max-width: 767px) {}
+
+/* Phones and down */
+@media (max-width: 480px) {
+    body {
+        margin-bottom: 55px;
+    }
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        z-index: 99;
+
+        background:rgba(90, 129, 153, 0.986);
+        font-weight: bold;
+        
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav p {
+        width: 100%;
+        text-align: center;
+    }
+}
