@@ -7,10 +7,9 @@ cool things about it:
 - It is responsive, so some elements design were adapted to work better for smartphones, tablets and desktops.
 
 ## mobile behavior
-
 > **click here to a [live preview](https://marianahiath.github.io/traveling-website/)**
 
-![enter image description here](https://lh3.googleusercontent.com/pw/ACtC-3d_HRhm4EZpcXnpgYfIQCgOtErPnz_y9L2uuC3krR_Q1ZBnEhM9xuBbL6nMiFeVGrSqCOwQlx0-ZjCbcqbdr1eWcdMUCJhzb4f-C8MwqHVZpOazVJp50pnhwzUenCJie3x463nyQqgQxrNOSwxTUXpv=w349-h532-no?authuser=0)
+![enter image description here](https://lh3.googleusercontent.com/pw/ACtC-3eLAaykl89PBbJqOuupkwsNpjTL8C8n3wdd7QSGeOigk9fUoETRpGnywgKLR_Bqsgf2hzcIwRskYmJiJHUdPp5w4pwGiZKI4r7rYvitdqHtUK_z22ctWW8xabj838aOtBi7fpwyIgIDpNJNgqtPNVS9=w329-h625-no?authuser=0)
 
 ## desktop behavior
 > **click here to a [live preview](https://marianahiath.github.io/traveling-website/)**
