@@ -1,11 +1,6 @@
 # Traveling ✈️
 Here's a simple project of a travel agency website developed to exercise some basic skills. It was inspire on Isadora Stangarlin's tutorial videos on [YouTube](https://www.youtube.com/playlist?list=PLOUrDmh7c7mVzTETBVBerrMawaLd-4RMs)
 
-cool things about it:
-- It was build only with HTML and CSS, showing that the basics still can do a good work;
-
-- It is responsive, so some elements design were adapted to work better for smartphones, tablets and desktops.
-
 ## mobile behavior
 > **click here to a [live preview](https://marianahiath.github.io/traveling/)**
 
